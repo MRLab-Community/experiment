@@ -1,0 +1,585 @@
+v1.7.0 (July 24, 2021)
+-----------------------------
+- Updated API v3 for SendInBlue email service
+
+Files updated:
+- includes/subscription/libs/sendinblue.php
+- includes/subscription/class-wps-sendinblue.php
+- wp-subscribe-pro.php
+
+
+v1.6.1 (Aug 20, 2020)
+-----------------------------
+- Fixed Mailerlite HTTPS issue
+- Fixed Mailerlite list ID display issue
+
+Files updated:
+- includes/wps-helpers.php
+- includes/subscription/libs/mailerlite/mailerlite-api-v2-php-sdklibs/src/Common/ApiContants.php
+- wp-subscribe-pro.php
+
+
+v1.6.0 (Apr 9, 2019)
+-----------------------------
+- Updated the MailRelay API
+
+Files updated:
+- includes/subscription/class-wps-mailrelay.php
+- includes/subscription/libs/mailrelay.php
+- includes/subscription/libs/class-mailrelay-api.php
+- wp-subscribe-pro.php
+
+
+v1.5.33 (Apr 9, 2019)
+-----------------------------
+- Fixed: "Add Subscribe Form Before/After Post Content" now shows the form even when "Custom HTML" is selected for the popup
+
+Files updated:
+- wp-subscribe-pro.php
+
+
+v1.5.32 (Apr 9, 2019)
+-----------------------------
+- Added missing and new animations for popup
+
+Files updated:
+- includes/wps-helpers.php
+- wp-subscribe-pro.php
+
+
+v1.5.31 (Dec 1, 2018)
+-----------------------------
+- Added validation for name and email fields
+
+Files updated:
+- includes/subscription/class-wps-base.php
+- includes/subscription/class-wps-feedburner.php
+- includes/wps-helpers.php
+- wp-subscribe-pro.php
+
+
+v1.5.30 (Oct 8, 2018)
+-----------------------------
+- Fixed ConvertKit compatibility
+
+Files updated:
+- includes/subscription/class-wps-convertkit.php
+- includes/subscription/libs/convertkit.php
+- wp-subscribe-pro.php
+
+
+v1.5.29 (July 18, 2018)
+-----------------------------
+- Fixed Show popup on specific screens option
+
+Files updated:
+- includes\wps-helpers.php
+- wp-subscribe-pro.php
+
+
+v1.5.28 (July 16, 2018)
+-----------------------------
+- Fixed undefined index errors and warnings.
+
+Files updated:
+- includes\subscription\class-wps-feedburner.php
+- views\tab-popup-content.php
+
+
+v1.5.27 (May 03, 2018)
+-----------------------------
+- Made plugin GDPR compliant
+
+Files updated:
+- assets\css\wp-subscribe-form.css
+- assets\css\wp-subscribe-options.css
+- assets\js\wp-subscribe-form.js
+- includes\subscription\class-wps-feedburner.php
+- includes\wps-functions-options.php
+- includes\wps-helpers.php
+- includes\wps-options.php
+- includes\wps-widget.php
+- views\tab-popup-content.php
+- views\tab-single-posts.php
+
+
+v1.5.26 (April 10, 2018)
+-----------------------------
+- Integrated MarketHero subscription
+- Minor code improvements
+
+Files updated:
+- includes/subscription/class-wps-markethero.php
+- includes/subscription/libs/markethero.php
+- includes/wps-functions-options.php
+- includes/subscription/class-wps-acumbamail.php
+- includes/subscription/class-wps-contantcontact.php
+- includes/subscription/class-wps-convertkit.php
+- includes/subscription/class-wps-drip.php
+- includes/subscription/class-wps-freshmail.php
+- includes/subscription/class-wps-getresponse.php
+- includes/subscription/class-wps-madmimi.php
+- includes/subscription/class-wps-mailerlite.php
+- includes/subscription/class-wps-mailrelay.php
+- includes/subscription/class-wps-sendgrid.php
+- includes/subscription/class-wps-sendinblue.php
+- wp-subscribe-pro.php
+
+v1.5.25 (Mar 16, 2018)
+-----------------------------
+- Integrated Convertkit's Subscription
+
+Files updated:
+- includes\subscription\class-wps-convertkit.php
+- includes\subscription\libs\convertkit.php
+- includes\wps-functions-options.php
+
+
+v1.5.24 (Feb 20, 2018)
+-----------------------------
+- Add thank you page redirection for Mad Mimi
+
+Files updated:
+- assets/js/wp-subscribe-admin.js
+- assets/js/wp-subscribe-options.js
+
+v1.5.23 (Jan 31, 2018)
+-----------------------------
+- Fixed issue with SendinBlue not being able to retrieve lists
+
+Files updated:
+- includes/subscription/class-wps-sendinblue.php
+- includes/subscription/libs/sendinblue.php
+- languages/wp-subscribe-pro.pot
+- wp-subscribe-pro.php
+
+v1.5.22 (Dec 16, 2017)
+-----------------------------
+- Added support for Mailster
+
+Files updated:
+- includes/subscription/class-wps-mailster.php
+- includes/subscription/class-wps-mymail.php
+- includes/wps-functions-options.php
+- languages/wp-subscribe.pot
+- wp-subscribe-pro.php
+
+v1.5.21 (Nov 29, 2017)
+-----------------------------
+- Added support for MailPoet 3
+
+Files updated:
+- includes/subscription/class-wps-mailpoet3.php
+- includes/wps-functions-options.php
+- wp-subscribe-pro.php
+
+v1.5.20 (Nov 23, 2017)
+-----------------------------
+- Fixed popup not triggering on front page when frontpage is a static page.
+- Updated POT
+- Minor spelling correction
+
+Files updated:
+- languages/wp-subscribe.pot
+- views/tab-popup-trigger.php
+- wp-subscribe-pro.php
+
+v1.5.19 (Nov 19, 2017)
+-----------------------------
+- Disable form on AMP pages
+
+Files updated:
+- wp-subscribe-pro.php
+
+v1.5.18 (Nov 16, 2017)
+-----------------------------
+- Fixed issue with BenchmarkEmail
+
+Files updated:
+- includes/subscription/class-wps-benchmark.php
+- includes/subscription/libs/bmeapi.php
+- wp-subscribe-pro.php
+
+v1.5.17 (Nov 02, 2017)
+-----------------------------
+- Fixed color picker conflict
+
+Files updated:
+- assets/css/wp-subscribe-options.css
+- wp-subscribe-pro.php
+
+
+v1.5.16 (Sep 28, 2017)
+-----------------------------
+- Fixed GetResponse issue if name field is disabled
+
+Files updated:
+- wp-subscribe-pro.php
+- includes/subscription/class-wps-getresponse.php
+
+
+v1.5.15 (Jul 14, 2017)
+-----------------------------
+- Fixed subscribe services list saving issue
+
+Files updated:
+- wp-subscribe-pro.php
+- includes/wps-helpers.php
+
+v1.5.14 (Apr 24, 2017)
+-----------------------------
+- Minor improvements
+
+Files updated:
+- assets/js/wp-subscribe-form.js
+- wp-subscribe-pro.php
+
+v1.5.13 (Apr 24, 2017)
+-----------------------------
+- Fixed issue with the thanks page not redirecting
+
+Files updated:
+- assets/js/wp-subscribe-form.js
+- wp-subscribe-pro.php
+
+v1.5.12 (Apr 22, 2017)
+-----------------------------
+- Fixed aweber connecting issue in widget
+- Fixed aweber subscription issue
+- Added raw content field for Aweber, Knews, Mailpoet, MyMail
+
+Files updated:
+- assets/js/wp-subscribe-admin.js
+- includes/subscription/class-wps-aweber.php
+- includes/subscription/class-wps-base.php
+- includes/subscription/class-wps-knews.php
+- includes/subscription/class-wps-mailpoet.php
+- includes/subscription/class-wps-mymail.php
+- includes/wps-options.php
+- includes/wps-widgets.php
+
+v1.5.11 (Apr 14, 2017)
+-----------------------------
+- Enhance MailChimp subscription name field
+
+Files updated:
+- includes/subscription/class-wps-mailchimp.php
+
+v1.5.10 (Apr 14, 2017)
+-----------------------------
+- Fixed inline form responsiveness
+
+Files updated:
+- includes/wps-helpers.php
+
+v1.5.9 (Apr 14, 2017)
+-----------------------------
+- Fixed loader animation for Feedburner
+
+Files updated:
+- assets/js/wp-subscribe-form.js
+
+v1.5.8 (Apr 14, 2017)
+-----------------------------
+- Add loader when submitting form
+- Convert CSS to SASS
+- Minify the CSS File
+
+Files added:
+- assets/sass/_mixin.scss
+- assets/sass/_base.scss
+- assets/sass/wp-subscribe-form.scss
+
+Files updated:
+- assets/css/wp-subscribe-form.css
+- assets/js/wp-subscribe-form.js
+- includes/wps-helpers.php
+
+v1.5.7 (Apr 13, 2017)
+-----------------------------
+- Fixed cookie expiration
+
+Files updated:
+- includes/wps-helpers.php
+
+v1.5.6 (Apr 12, 2017)
+-----------------------------
+- Fixed custom colors issue
+
+Files updated:
+- includes/wps-helpers.php
+
+v1.5.5 (Apr 12, 2017)
+-----------------------------
+- Remove magnific popup classes from inline form
+
+Files updated:
+- includes/wps-helpers.php
+
+v1.5.4 (Apr 12, 2017)
+-----------------------------
+- Provided backward compatibility for Scoped CSS
+
+Files updated:
+- includes/wps-helpers.php
+
+v1.5.3 (Apr 12, 2017)
+-----------------------------
+- Provided backward compatibility for CSS
+
+Files updated:
+- wp-subscribe-pro.php
+
+v1.5.2 (Apr 12, 2017)
+-----------------------------
+- Fixed Enable / Disable Popup Issue
+
+Files updated:
+- includes/wps-options.php
+- wp-subscribe-pro.php
+
+v1.5.1 (Apr 11, 2017)
+-----------------------------
+- Fixed PHP 7 fatal error
+
+Files Updated:
+- includes/wps-helpers.php
+
+
+v1.5.0 (Apr 11, 2017)
+-----------------------------
+- Whole plugin is re-written in OOP
+- Huge performance Improvements
+- Better support for future extendibility
+- Added support for Acumbamail
+- Added support for FreshMail
+- Added support for K-news
+- Added support for Mad Mimi
+- Added support for MailerLite
+- Added support for MailPoet
+- Added support for MyMail
+- Added support for SendGrid
+- Added support for SendInBlue
+- Added support for Sendy.
+- Added .pot file for localisation
+- Added Double Opt-In for AcumbaMail, Benchmarkmail, Freshmail, KNews, MailChimp, MailerLite, MailPoet, MyMail.
+- Moved JS and CSS folders inside assets folder
+- Enhanced: All the setting tabs now reside in there individual files for easy editing.
+- Fixed: Missing and in-correct textdomain
+
+
+v1.4.2 (Mar 27, 2017)
+-----------------------------
+- change Feedburner form target URL to HTTPS
+
+Files updated:
+- wp-subscribe-pro.php
+- wp-subscribe-widget.php
+
+
+v1.4.1 (Mar 16, 2017)
+-----------------------------
+- Improved PHP7 compatibility
+- Improved localization support
+
+Files updated:
+- BMEAPI.class.php
+- languages/default.mo
+- languages/wp-subscribe.pot
+- wp-subscribe-pro.php
+
+
+v1.4.0 (Jan 3, 2017)
+-----------------------------
+- Added option to hide popup on desired screen
+
+Files updated:
+- wp-subscribe-pro.php
+- options.php
+- functions.php
+- languages/
+
+
+v1.3.9 (Jan 2, 2017)
+-----------------------------
+- Added ActiveCampaign support
+
+Files updated:
+- wp-subscribe-pro.php
+- wp-subscribe-widget.php
+- options.php
+- functions.php
+- js/wp-subscribe-admin.js
+- js/wp-subscribe-options.js
+- languages/
+
+
+v1.3.8 (Nov 22, 2016)
+-----------------------------
+- Added MailRelay support
+
+Files updated:
+- wp-subscribe-pro.php
+- wp-subscribe-widget.php
+- options.php
+- functions.php
+- js/wp-subscribe-admin.js
+- js/wp-subscribe-options.js
+- languages/
+
+
+v1.3.7 (Sep 26, 2016)
+-----------------------------
+- Added Constant Contact support
+
+Files updated:
+- wp-subscribe-pro.php
+- wp-subscribe-widget.php
+- options.php
+- functions.php
+- js/wp-subscribe-admin.js
+- js/wp-subscribe-options.js
+- js/wp-subscribe-form.js
+- languages/
+
+
+v1.3.6 (Aug 4, 2016)
+-----------------------------
+- Fixed HTML error in options page
+
+Files updated:
+- wp-subscribe-pro.php
+- options.php
+
+
+v1.3.5 (Aug 1, 2016)
+-----------------------------
+- Added Benchmark Email support
+
+Files updated:
+- wp-subscribe-pro.php
+- wp-subscribe-widget.php
+- options.php
+- functions.php
+- js/wp-subscribe-admin.js
+- js/wp-subscribe-options.js
+- js/wp-subscribe-form.js
+- BMEAPI.class.php
+- languages/
+
+
+v1.3.4 (Jun 28, 2016)
+-----------------------------
+- Added filter hook to set custom display conditions for popup
+
+Files updated:
+- wp-subscribe-pro.php
+- functions.php
+- developer-filters.php
+
+
+v1.3.3 (Jun 23, 2016)
+-----------------------------
+- Fixed few PHP notices
+- Fixed Aweber form causes mixed-content warnings when site is on ssl issue
+
+Files updated:
+- wp-subscribe-pro.php
+- wp-subscribe-widget.php
+- functions.php
+
+
+v1.3.2 (May 19, 2016)
+-----------------------------
+- Added MailerLite support
+
+Files updated:
+- wp-subscribe-pro.php
+- wp-subscribe-widget.php
+- options.php
+- functions.php
+- js/wp-subscribe-admin.js
+- js/wp-subscribe-options.js
+- js/wp-subscribe-form.js
+
+
+v1.3.1 (Feb 17, 2016)
+-----------------------------
+- Removed nonce from frontend
+
+Files updated:
+- wp-subscribe-pro.php
+- wp-subscribe-widget.php
+
+
+v1.3 (Oct 25, 2015)
+-----------------------------
+- Added "Thank You Page" option
+
+Files updated:
+- wp-subscribe-pro.php
+- wp-subscribe-widget.php
+- options.php
+- functions.php
+- js/wp-subscribe-admin.js
+- js/wp-subscribe-options.js
+- js/wp-subscribe-form.js
+
+
+v1.2.2 (Oct 7, 2015)
+-----------------------------
+- Fixed SSL error in dashboard
+- Fixed PHP Warning inside popup preview
+- Fixed minor CSS issue inside Recent posts popup
+- Fixed Customizer issue
+- Fixed issue where Disable popup metabox was not saving options on non-MyThemeShop themes
+
+Files updated:
+- wp-subscribe-pro.php
+- wp-subscribe-widget.php
+- options.php
+- functions.php
+- css/wp-subscribe-popup.css
+
+
+v1.2.1 (May 20, 2015)
+----------------------------------
+- Fixed missing color picker issue
+
+Files changed:
+ - wp-subscribe-widget.php
+
+
+v1.2 (Feb 19, 2015)
+----------------------------------
+- Added new option to choose predefined color schemes.
+- Added new predefined color scheme with orange button.
+- Added developer filter to add/edit/remove predefined color schemes.
+- Added developer filter to add predefined text for subscribe forms.
+
+
+v1.1.1 (November 22, 2014)
+----------------------------------
+- Added option for double opt-in when using Mailchimp
+- Added shortcode support
+- Fixed minor issues causing PHP notices
+
+
+v1.1 (November 13, 2014)
+----------------------------------
+- Added GetResponse support
+- Fixed MailChimp issue in single post form
+- Fixed tabs issue on settings page
+- Single post subscribe form now comes below WP Review box
+
+
+v1.0.1 (November 12, 2014)
+----------------------------------
+- Fixed MailChimp & AWeber related issues
+- Fixed some JS issues
+- Updated input placeholder behaviour
+
+
+v1.0 (November 11, 2014 )
+----------------------------------
+- Plugin Released
