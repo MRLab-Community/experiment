@@ -1,0 +1,1254 @@
+# Copyright (C) 2018 WP Subscribe Pro
+# This file is distributed under the same license as the WP Subscribe Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Subscribe Pro 1.5.23\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-subscribe-pro\n"
+"POT-Creation-Date: 2018-01-30 17:15:02+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: developer-filters.php:15
+msgid "Subscribe now!"
+msgstr ""
+
+#: includes/subscription/class-wps-activecampaign.php:88
+#: includes/subscription/class-wps-freshmail.php:59
+#: includes/subscription/class-wps-getresponse.php:59
+#: includes/subscription/class-wps-mailerlite.php:50
+msgid "Unknown error."
+msgstr ""
+
+#: includes/subscription/class-wps-activecampaign.php:106
+msgid "ActiveCampaign API Key"
+msgstr ""
+
+#: includes/subscription/class-wps-activecampaign.php:107
+msgid "The API Key of your ActiveCampaign account."
+msgstr ""
+
+#: includes/subscription/class-wps-activecampaign.php:115
+msgid "ActiveCampaign API URL"
+msgstr ""
+
+#: includes/subscription/class-wps-activecampaign.php:116
+msgid "The API Url of your ActiveCampaign account."
+msgstr ""
+
+#: includes/subscription/class-wps-activecampaign.php:124
+msgid "ActiveCampaign List"
+msgstr ""
+
+#: includes/subscription/class-wps-activecampaign.php:125
+#: includes/subscription/class-wps-acumbamail.php:77
+#: includes/subscription/class-wps-aweber.php:204
+#: includes/subscription/class-wps-benchmark.php:98
+#: includes/subscription/class-wps-constantcontact.php:90
+#: includes/subscription/class-wps-drip.php:81
+#: includes/subscription/class-wps-freshmail.php:87
+#: includes/subscription/class-wps-getresponse.php:80
+#: includes/subscription/class-wps-knews.php:82
+#: includes/subscription/class-wps-madmimi.php:71
+#: includes/subscription/class-wps-mailchimp.php:73
+#: includes/subscription/class-wps-mailerlite.php:70
+#: includes/subscription/class-wps-mailpoet.php:117
+#: includes/subscription/class-wps-mailpoet3.php:58
+#: includes/subscription/class-wps-mailrelay.php:75
+#: includes/subscription/class-wps-mailster.php:90
+#: includes/subscription/class-wps-mymail.php:131
+#: includes/subscription/class-wps-sendgrid.php:97
+#: includes/subscription/class-wps-sendinblue.php:92
+msgid "Select List"
+msgstr ""
+
+#: includes/subscription/class-wps-acumbamail.php:59
+msgid "Acumbamail Customer ID"
+msgstr ""
+
+#: includes/subscription/class-wps-acumbamail.php:60
+msgid "The customer ID of your Acumbamail account."
+msgstr ""
+
+#: includes/subscription/class-wps-acumbamail.php:68
+msgid "Acumbamail API Token"
+msgstr ""
+
+#: includes/subscription/class-wps-acumbamail.php:69
+msgid "The API token of your Acumbamail account."
+msgstr ""
+
+#: includes/subscription/class-wps-acumbamail.php:76
+msgid "Acumbamail List"
+msgstr ""
+
+#: includes/subscription/class-wps-acumbamail.php:85
+#: includes/subscription/class-wps-benchmark.php:106
+#: includes/subscription/class-wps-drip.php:89
+#: includes/subscription/class-wps-freshmail.php:95
+#: includes/subscription/class-wps-knews.php:89
+#: includes/subscription/class-wps-mailchimp.php:81
+#: includes/subscription/class-wps-mailerlite.php:78
+#: includes/subscription/class-wps-mailpoet.php:125
+#: includes/subscription/class-wps-mailster.php:106
+#: includes/subscription/class-wps-mymail.php:147
+msgid "Send double opt-in notification"
+msgstr ""
+
+#: includes/subscription/class-wps-aweber.php:67
+msgid "Unable to connect to Aweber. The Authorization Code is empty."
+msgstr ""
+
+#: includes/subscription/class-wps-aweber.php:77
+msgid ""
+"Unable to connect your Aweber Account. The Authorization Code is incorrect."
+msgstr ""
+
+#: includes/subscription/class-wps-aweber.php:203
+msgid "AWeber List"
+msgstr ""
+
+#: includes/subscription/class-wps-aweber.php:217
+msgid "To connect your Aweber account:"
+msgstr ""
+
+#: includes/subscription/class-wps-aweber.php:220
+msgid ""
+"<span>1.</span> <a href=\"%s\" target=\"_blank\">Click here</a> <span>to "
+"open the authorization page and log in.</span>"
+msgstr ""
+
+#: includes/subscription/class-wps-aweber.php:221
+msgid ""
+"<span>2.</span> Copy and paste the authorization code in the field below."
+msgstr ""
+
+#: includes/subscription/class-wps-aweber.php:230
+msgid "Your Aweber Account is connected."
+msgstr ""
+
+#: includes/subscription/class-wps-aweber.php:231
+msgid ""
+"<a href=\"#\" class=\"aweber_disconnect\">Click here</a> <span>to disconnect."
+"</span>"
+msgstr ""
+
+#: includes/subscription/class-wps-benchmark.php:83
+msgid "BenchmarkEmail Username"
+msgstr ""
+
+#: includes/subscription/class-wps-benchmark.php:90
+msgid "BenchmarkEmail Password"
+msgstr ""
+
+#: includes/subscription/class-wps-benchmark.php:97
+msgid "BenchmarkEmail List"
+msgstr ""
+
+#: includes/subscription/class-wps-constantcontact.php:73
+msgid "Constant Contact API key"
+msgstr ""
+
+#: includes/subscription/class-wps-constantcontact.php:81
+msgid "Constant Contact access token"
+msgstr ""
+
+#: includes/subscription/class-wps-constantcontact.php:89
+msgid "Constant Contact List ID"
+msgstr ""
+
+#: includes/subscription/class-wps-drip.php:63
+msgid "Account ID"
+msgstr ""
+
+#: includes/subscription/class-wps-drip.php:64
+msgid "The account id of your drip account."
+msgstr ""
+
+#: includes/subscription/class-wps-drip.php:71
+msgid "API token"
+msgstr ""
+
+#: includes/subscription/class-wps-drip.php:72
+msgid "The API key of your drip account."
+msgstr ""
+
+#: includes/subscription/class-wps-drip.php:80
+msgid "Drip Campaigns"
+msgstr ""
+
+#: includes/subscription/class-wps-feedburner.php:39
+msgid "Feedburner ID"
+msgstr ""
+
+#: includes/subscription/class-wps-freshmail.php:69
+msgid "FreshMail API Key"
+msgstr ""
+
+#: includes/subscription/class-wps-freshmail.php:70
+msgid "The API Key of your FreshMail account."
+msgstr ""
+
+#: includes/subscription/class-wps-freshmail.php:78
+msgid "FreshMail API Secret"
+msgstr ""
+
+#: includes/subscription/class-wps-freshmail.php:79
+msgid "The API Secret of your FreshMail account."
+msgstr ""
+
+#: includes/subscription/class-wps-freshmail.php:86
+msgid "FreshMail List"
+msgstr ""
+
+#: includes/subscription/class-wps-getresponse.php:70
+msgid "GetResponse API Key"
+msgstr ""
+
+#: includes/subscription/class-wps-getresponse.php:71
+msgid "The API key of your GetResponse account."
+msgstr ""
+
+#: includes/subscription/class-wps-getresponse.php:79
+msgid "GetResponse List"
+msgstr ""
+
+#: includes/subscription/class-wps-knews.php:16
+msgid "The Knews plugin is not found on your website."
+msgstr ""
+
+#: includes/subscription/class-wps-knews.php:81
+msgid "KNews List ID"
+msgstr ""
+
+#: includes/subscription/class-wps-knews.php:99
+msgid ""
+"The KNews plugin is not found on your website. Emails will not be saved."
+msgstr ""
+
+#: includes/subscription/class-wps-madmimi.php:53
+msgid "Mad Mimi Email"
+msgstr ""
+
+#: includes/subscription/class-wps-madmimi.php:54
+msgid "The email of your Mad Mimi account."
+msgstr ""
+
+#: includes/subscription/class-wps-madmimi.php:61
+msgid "Mad Mimi API Key"
+msgstr ""
+
+#: includes/subscription/class-wps-madmimi.php:62
+msgid "The API key of your Mad Mimi account."
+msgstr ""
+
+#: includes/subscription/class-wps-madmimi.php:70
+msgid "Mad Mimi List"
+msgstr ""
+
+#: includes/subscription/class-wps-mailchimp.php:63
+msgid "MailChimp API URL"
+msgstr ""
+
+#: includes/subscription/class-wps-mailchimp.php:64
+msgid "The API key of your MailChimp account."
+msgstr ""
+
+#: includes/subscription/class-wps-mailchimp.php:72
+msgid "MailChimp List"
+msgstr ""
+
+#: includes/subscription/class-wps-mailerlite.php:60
+msgid "MailerLite API key"
+msgstr ""
+
+#: includes/subscription/class-wps-mailerlite.php:61
+msgid "The API key of your MailerLite account."
+msgstr ""
+
+#: includes/subscription/class-wps-mailerlite.php:69
+msgid "MailerLite List"
+msgstr ""
+
+#: includes/subscription/class-wps-mailpoet.php:16
+msgid "The MailPoet plugin is not found on your website."
+msgstr ""
+
+#: includes/subscription/class-wps-mailpoet.php:116
+msgid "MailPoet List"
+msgstr ""
+
+#: includes/subscription/class-wps-mailpoet.php:135
+msgid ""
+"The MailPoet plugin is not found on your website. Emails will not be saved."
+msgstr ""
+
+#: includes/subscription/class-wps-mailpoet3.php:22
+msgid "The MailPoet 3 plugin is not found on your website."
+msgstr ""
+
+#: includes/subscription/class-wps-mailpoet3.php:57
+msgid "MailPoet 3 List"
+msgstr ""
+
+#: includes/subscription/class-wps-mailpoet3.php:71
+msgid ""
+"The MailPoet 3 plugin is %1$srequired%2$s but not found on your website."
+msgstr ""
+
+#: includes/subscription/class-wps-mailrelay.php:60
+msgid "MailRelay API key"
+msgstr ""
+
+#: includes/subscription/class-wps-mailrelay.php:67
+msgid "MailRelay host address"
+msgstr ""
+
+#: includes/subscription/class-wps-mailrelay.php:74
+msgid "MailRelay Group"
+msgstr ""
+
+#: includes/subscription/class-wps-mailster.php:14
+#: includes/subscription/class-wps-mailster.php:71
+msgid "The Mailster plugin is not found on your website."
+msgstr ""
+
+#: includes/subscription/class-wps-mailster.php:18
+msgid ""
+"Unable to connect with the Mailster Subscribers Manager. Your version of "
+"Mailster plugin is not supported. Please contact EverPress support."
+msgstr ""
+
+#: includes/subscription/class-wps-mailster.php:97
+msgid "Mailster List"
+msgstr ""
+
+#: includes/subscription/class-wps-mymail.php:16
+#: includes/subscription/class-wps-mymail.php:94
+msgid "The MyMail plugin is not found on your website."
+msgstr ""
+
+#: includes/subscription/class-wps-mymail.php:21
+#: includes/subscription/class-wps-mymail.php:27
+msgid ""
+"Unable to connect with the MyMail Subscribers Manager. Your version of "
+"MyMail plugin is not supported. Please contact OnePress support."
+msgstr ""
+
+#: includes/subscription/class-wps-mymail.php:99
+#: includes/subscription/class-wps-mymail.php:105
+msgid ""
+"Unable to connect with the MyMail Lists Manager. Your version of MyMail "
+"plugin is not supported. Please contact OnePress support."
+msgstr ""
+
+#: includes/subscription/class-wps-mymail.php:138
+msgid "MyMail List"
+msgstr ""
+
+#: includes/subscription/class-wps-sendgrid.php:70
+msgid "Unable to add a new user. Please contact MyThemeShop support."
+msgstr ""
+
+#: includes/subscription/class-wps-sendgrid.php:87
+msgid "SendGrid API Key"
+msgstr ""
+
+#: includes/subscription/class-wps-sendgrid.php:88
+msgid ""
+"Your SendGrid API key. Grant Full Access for Mail Send and Marketing "
+"Campaigns in settings of your API key."
+msgstr ""
+
+#: includes/subscription/class-wps-sendgrid.php:96
+msgid "SendGrid List"
+msgstr ""
+
+#: includes/subscription/class-wps-sendinblue.php:82
+msgid "SendinBlue API Key"
+msgstr ""
+
+#: includes/subscription/class-wps-sendinblue.php:83
+msgid "The API Key (version 2.0) of your Sendinblue account."
+msgstr ""
+
+#: includes/subscription/class-wps-sendinblue.php:91
+msgid "SendinBlue List"
+msgstr ""
+
+#: includes/subscription/class-wps-sendy.php:28
+msgid "The Sendy API Key is not specified."
+msgstr ""
+
+#: includes/subscription/class-wps-sendy.php:32
+msgid "The Sendy Installation is not specified."
+msgstr ""
+
+#: includes/subscription/class-wps-sendy.php:49
+#: includes/subscription/class-wps-sendy.php:54
+msgid "Unexpected error occurred during connection to Sendy: %s"
+msgstr ""
+
+#: includes/subscription/class-wps-sendy.php:119
+msgid "Sendy API URL"
+msgstr ""
+
+#: includes/subscription/class-wps-sendy.php:120
+msgid "An URL for your Sendy installation, http://your_sendy_installation"
+msgstr ""
+
+#: includes/subscription/class-wps-sendy.php:127
+msgid "Sendy API Key"
+msgstr ""
+
+#: includes/subscription/class-wps-sendy.php:128
+msgid "The API Key of your Sendy application, available in Settings."
+msgstr ""
+
+#: includes/subscription/class-wps-sendy.php:135
+msgid "Sendy List"
+msgstr ""
+
+#: includes/subscription/class-wps-sendy.php:136
+msgid "Specify the list ID to add subscribers."
+msgstr ""
+
+#: includes/subscription/libs/sendgrid/SendGrid.php:69
+msgid ""
+"Access denied. Please make sure that you set Full Access for Mail Send and "
+"Marketing Campaigns in settings of your API key in SendGrid."
+msgstr ""
+
+#: includes/subscription/libs/sendgrid/SendGrid.php:76
+msgid "Unknown error. Please contact OnePress support [code %d]"
+msgstr ""
+
+#: includes/wps-functions-options.php:17
+msgid "ActiveCampaign"
+msgstr ""
+
+#: includes/wps-functions-options.php:18
+msgid "Adds subscribers to your ActiveCampaign account."
+msgstr ""
+
+#: includes/wps-functions-options.php:23
+msgid "Acumbamail"
+msgstr ""
+
+#: includes/wps-functions-options.php:24
+msgid "Adds subscribers to your Acumbamail account."
+msgstr ""
+
+#: includes/wps-functions-options.php:29
+msgid "Aweber"
+msgstr ""
+
+#: includes/wps-functions-options.php:30
+msgid "Adds subscribers to your Aweber account."
+msgstr ""
+
+#: includes/wps-functions-options.php:35
+msgid "BenchmarkEmail"
+msgstr ""
+
+#: includes/wps-functions-options.php:36
+msgid "Adds subscribers to your BenchmarkEmail account."
+msgstr ""
+
+#: includes/wps-functions-options.php:41
+msgid "Constant Contact"
+msgstr ""
+
+#: includes/wps-functions-options.php:42
+msgid "Adds subscribers to your Constant Contact account."
+msgstr ""
+
+#: includes/wps-functions-options.php:47
+msgid "Drip.co"
+msgstr ""
+
+#: includes/wps-functions-options.php:48
+msgid "Adds subscribers to your Drip account."
+msgstr ""
+
+#: includes/wps-functions-options.php:53
+msgid "FeedBurner"
+msgstr ""
+
+#: includes/wps-functions-options.php:54
+msgid "Adds subscribers to your FeedBurner account."
+msgstr ""
+
+#: includes/wps-functions-options.php:59
+msgid "FreshMail"
+msgstr ""
+
+#: includes/wps-functions-options.php:60
+msgid "Adds subscribers to your FreshMail account."
+msgstr ""
+
+#: includes/wps-functions-options.php:65
+msgid "GetResponse"
+msgstr ""
+
+#: includes/wps-functions-options.php:66
+msgid "Adds subscribers to your GetResponse account."
+msgstr ""
+
+#: includes/wps-functions-options.php:71
+msgid "K-news"
+msgstr ""
+
+#: includes/wps-functions-options.php:72
+msgid "Adds subscribers to the plugin K-news."
+msgstr ""
+
+#: includes/wps-functions-options.php:77
+msgid "Mad Mimi"
+msgstr ""
+
+#: includes/wps-functions-options.php:78
+msgid "Adds subscribers to your Mad Mimi account."
+msgstr ""
+
+#: includes/wps-functions-options.php:83
+msgid "MailChimp"
+msgstr ""
+
+#: includes/wps-functions-options.php:84
+msgid "Adds subscribers to your MailChimp account."
+msgstr ""
+
+#: includes/wps-functions-options.php:89
+msgid "MailerLite"
+msgstr ""
+
+#: includes/wps-functions-options.php:90
+msgid "Adds subscribers to your MailerLite account."
+msgstr ""
+
+#: includes/wps-functions-options.php:95
+msgid "MailPoet"
+msgstr ""
+
+#: includes/wps-functions-options.php:96
+msgid "Adds subscribers to the plugin MailPoet."
+msgstr ""
+
+#: includes/wps-functions-options.php:101
+msgid "MailPoet 3"
+msgstr ""
+
+#: includes/wps-functions-options.php:102
+msgid "Adds subscribers to the new MailPoet 3 plugin."
+msgstr ""
+
+#: includes/wps-functions-options.php:107
+msgid "MailRelay"
+msgstr ""
+
+#: includes/wps-functions-options.php:108
+msgid "Adds subscribers to the plugin MailRelay."
+msgstr ""
+
+#: includes/wps-functions-options.php:113
+msgid "Mailster"
+msgstr ""
+
+#: includes/wps-functions-options.php:114
+msgid "Adds subscribers to the plugin Mailster."
+msgstr ""
+
+#: includes/wps-functions-options.php:119
+msgid "MyMail"
+msgstr ""
+
+#: includes/wps-functions-options.php:120
+msgid "Adds subscribers to the plugin MyMail."
+msgstr ""
+
+#: includes/wps-functions-options.php:125
+msgid "SendGrid"
+msgstr ""
+
+#: includes/wps-functions-options.php:126
+msgid "Adds subscribers to your SendGrid account."
+msgstr ""
+
+#: includes/wps-functions-options.php:131
+msgid "SendInBlue"
+msgstr ""
+
+#: includes/wps-functions-options.php:132
+msgid "Adds subscribers to your SendInBlue account."
+msgstr ""
+
+#: includes/wps-functions-options.php:137
+msgid "Sendy"
+msgstr ""
+
+#: includes/wps-functions-options.php:138
+msgid "Adds subscribers to your Sendy application."
+msgstr ""
+
+#: includes/wps-functions-options.php:208
+msgid "Get more stuff like this<br/> <span>in your inbox</span>"
+msgstr ""
+
+#: includes/wps-functions-options.php:209
+#: includes/wps-functions-options.php:295 includes/wps-widget.php:53
+msgid ""
+"Subscribe to our mailing list and get interesting stuff and updates to your "
+"email inbox."
+msgstr ""
+
+#: includes/wps-functions-options.php:210
+#: includes/wps-functions-options.php:296 includes/wps-widget.php:55
+msgid "Enter your name here"
+msgstr ""
+
+#: includes/wps-functions-options.php:211
+#: includes/wps-functions-options.php:297 includes/wps-widget.php:54
+msgid "Enter your email here"
+msgstr ""
+
+#: includes/wps-functions-options.php:212
+#: includes/wps-functions-options.php:298 includes/wps-widget.php:56
+msgid "Sign Up Now"
+msgstr ""
+
+#: includes/wps-functions-options.php:213
+#: includes/wps-functions-options.php:299 includes/wps-widget.php:57
+msgid "Thank you for subscribing."
+msgstr ""
+
+#: includes/wps-functions-options.php:214
+#: includes/wps-functions-options.php:300 includes/wps-widget.php:58
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/wps-functions-options.php:215
+#: includes/wps-functions-options.php:301
+msgid "We respect your privacy and take protecting it seriously"
+msgstr ""
+
+#: includes/wps-functions-options.php:227
+msgid "Some text with padding."
+msgstr ""
+
+#: includes/wps-functions-options.php:253
+msgid "Before you go"
+msgstr ""
+
+#: includes/wps-functions-options.php:254
+msgid "You may also be interested in these posts:"
+msgstr ""
+
+#: includes/wps-functions-options.php:294
+msgid "Get more stuff like this"
+msgstr ""
+
+#: includes/wps-helpers.php:422
+msgid "View all posts in %s"
+msgstr ""
+
+#: includes/wps-helpers.php:579
+msgid "No Animation"
+msgstr ""
+
+#: includes/wps-helpers.php:580
+msgid "Attention Seekers"
+msgstr ""
+
+#: includes/wps-helpers.php:581
+msgid "bounce"
+msgstr ""
+
+#: includes/wps-helpers.php:582
+msgid "flash"
+msgstr ""
+
+#: includes/wps-helpers.php:583
+msgid "pulse"
+msgstr ""
+
+#: includes/wps-helpers.php:584
+msgid "rubberBand"
+msgstr ""
+
+#: includes/wps-helpers.php:585
+msgid "shake"
+msgstr ""
+
+#: includes/wps-helpers.php:586
+msgid "swing"
+msgstr ""
+
+#: includes/wps-helpers.php:587
+msgid "tada"
+msgstr ""
+
+#: includes/wps-helpers.php:588
+msgid "wobble"
+msgstr ""
+
+#: includes/wps-helpers.php:590
+msgid "Bouncing Entrances"
+msgstr ""
+
+#: includes/wps-helpers.php:591
+msgid "bounceIn"
+msgstr ""
+
+#: includes/wps-helpers.php:592
+msgid "bounceInDown"
+msgstr ""
+
+#: includes/wps-helpers.php:593
+msgid "bounceInLeft"
+msgstr ""
+
+#: includes/wps-helpers.php:594
+msgid "bounceInRight"
+msgstr ""
+
+#: includes/wps-helpers.php:595
+msgid "bounceInUp"
+msgstr ""
+
+#: includes/wps-helpers.php:597
+msgid "Fading Entrances"
+msgstr ""
+
+#: includes/wps-helpers.php:598
+msgid "fadeIn"
+msgstr ""
+
+#: includes/wps-helpers.php:599
+msgid "fadeInDown"
+msgstr ""
+
+#: includes/wps-helpers.php:600
+msgid "fadeInDownBig"
+msgstr ""
+
+#: includes/wps-helpers.php:601
+msgid "fadeInLeft"
+msgstr ""
+
+#: includes/wps-helpers.php:602
+msgid "fadeInLeftBig"
+msgstr ""
+
+#: includes/wps-helpers.php:603
+msgid "fadeInRight"
+msgstr ""
+
+#: includes/wps-helpers.php:604
+msgid "fadeInRightBig"
+msgstr ""
+
+#: includes/wps-helpers.php:605
+msgid "fadeInUp"
+msgstr ""
+
+#: includes/wps-helpers.php:606
+msgid "fadeInUpBig"
+msgstr ""
+
+#: includes/wps-helpers.php:608
+msgid "Flippers"
+msgstr ""
+
+#: includes/wps-helpers.php:609
+msgid "flipInX"
+msgstr ""
+
+#: includes/wps-helpers.php:610
+msgid "flipInY"
+msgstr ""
+
+#: includes/wps-helpers.php:612
+msgid "Lightspeed"
+msgstr ""
+
+#: includes/wps-helpers.php:613
+msgid "lightSpeedIn"
+msgstr ""
+
+#: includes/wps-helpers.php:615
+msgid "Rotating Entrances"
+msgstr ""
+
+#: includes/wps-helpers.php:616
+msgid "rotateIn"
+msgstr ""
+
+#: includes/wps-helpers.php:617
+msgid "rotateInDownLeft"
+msgstr ""
+
+#: includes/wps-helpers.php:618
+msgid "rotateInDownRight"
+msgstr ""
+
+#: includes/wps-helpers.php:619
+msgid "rotateInUpLeft"
+msgstr ""
+
+#: includes/wps-helpers.php:620
+msgid "rotateInUpRight"
+msgstr ""
+
+#: includes/wps-helpers.php:622
+msgid "Specials"
+msgstr ""
+
+#: includes/wps-helpers.php:623
+msgid "rollIn"
+msgstr ""
+
+#: includes/wps-helpers.php:625
+msgid "Zoom Entrances"
+msgstr ""
+
+#: includes/wps-helpers.php:626
+msgid "zoomIn"
+msgstr ""
+
+#: includes/wps-helpers.php:627
+msgid "zoomInDown"
+msgstr ""
+
+#: includes/wps-helpers.php:628
+msgid "zoomInLeft"
+msgstr ""
+
+#: includes/wps-helpers.php:629
+msgid "zoomInRight"
+msgstr ""
+
+#: includes/wps-helpers.php:630
+msgid "zoomInUp"
+msgstr ""
+
+#: includes/wps-options.php:80
+msgid "WP Subscribe"
+msgstr ""
+
+#. #-#-#-#-#  wp-subscribe-pro.pot (WP Subscribe Pro 1.5.23)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/wps-options.php:81 wp-subscribe-pro.php:492
+msgid "WP Subscribe Pro"
+msgstr ""
+
+#: includes/wps-options.php:202 includes/wps-options.php:294
+#: includes/wps-widget.php:438 includes/wps-widget.php:513
+msgid "Click here"
+msgstr ""
+
+#: includes/wps-options.php:290 includes/wps-widget.php:509
+msgid "Get list"
+msgstr ""
+
+#: includes/wps-options.php:355 includes/wps-widget.php:372
+msgid "Load a predefined color set"
+msgstr ""
+
+#: includes/wps-options.php:376 includes/wps-widget.php:393
+msgid "Load colors"
+msgstr ""
+
+#: includes/wps-widget.php:23
+msgid ""
+"Displays subscription form, supports FeedBurner, MailChimp, GetResponse & "
+"AWeber."
+msgstr ""
+
+#: includes/wps-widget.php:34
+msgid "WP Subscribe Pro Widget"
+msgstr ""
+
+#: includes/wps-widget.php:52
+msgid "Get more stuff"
+msgstr ""
+
+#: includes/wps-widget.php:59
+msgid "we respect your privacy and take protecting it seriously"
+msgstr ""
+
+#: includes/wps-widget.php:188 views/tab-popup-content.php:46
+#: views/tab-single-posts.php:77
+msgid "Include <strong>Name</strong> field"
+msgstr ""
+
+#: includes/wps-widget.php:199 views/tab-popup-content.php:56
+#: views/tab-single-posts.php:86
+msgid "Show Thank You Page after successful subscription"
+msgstr ""
+
+#: includes/wps-widget.php:207 views/tab-popup-content.php:63
+#: views/tab-single-posts.php:93
+msgid "Thank You Page URL"
+msgstr ""
+
+#: includes/wps-widget.php:214
+msgid "Open in new window"
+msgstr ""
+
+#: includes/wps-widget.php:222
+msgid "Labels"
+msgstr ""
+
+#: includes/wps-widget.php:289
+msgid "Colors"
+msgstr ""
+
+#: views/settings.php:3
+msgid "WP Subscribe Pro Settings"
+msgstr ""
+
+#: views/settings.php:9
+msgid "Popup"
+msgstr ""
+
+#: views/settings.php:10
+msgid "Popup Content"
+msgstr ""
+
+#: views/settings.php:11
+msgid "Popup Triggers"
+msgstr ""
+
+#: views/settings.php:12
+msgid "Single Posts"
+msgstr ""
+
+#: views/tab-popup-content.php:75 views/tab-popup-content.php:161
+#: views/tab-single-posts.php:107
+msgid "Title"
+msgstr ""
+
+#: views/tab-popup-content.php:81 views/tab-popup-content.php:167
+#: views/tab-single-posts.php:113
+msgid "Text"
+msgstr ""
+
+#: views/tab-popup-content.php:87 views/tab-single-posts.php:119
+msgid "Name Placeholder Text"
+msgstr ""
+
+#: views/tab-popup-content.php:93 views/tab-single-posts.php:125
+msgid "Email Placeholder Text"
+msgstr ""
+
+#: views/tab-popup-content.php:99 views/tab-single-posts.php:131
+msgid "Button Text"
+msgstr ""
+
+#: views/tab-popup-content.php:105 views/tab-single-posts.php:137
+msgid "Success Message"
+msgstr ""
+
+#: views/tab-popup-content.php:111 views/tab-single-posts.php:143
+msgid "Error Message"
+msgstr ""
+
+#: views/tab-popup-content.php:117 views/tab-single-posts.php:149
+msgid "Footer Text"
+msgstr ""
+
+#: views/tab-popup-content.php:126 views/tab-popup-content.php:174
+#: views/tab-single-posts.php:158
+msgid "Background color"
+msgstr ""
+
+#: views/tab-popup-content.php:127 views/tab-popup-content.php:175
+#: views/tab-single-posts.php:159
+msgid "Title color"
+msgstr ""
+
+#: views/tab-popup-content.php:128 views/tab-popup-content.php:176
+#: views/tab-single-posts.php:160
+msgid "Text color"
+msgstr ""
+
+#: views/tab-popup-content.php:129 views/tab-single-posts.php:161
+msgid "Field text color"
+msgstr ""
+
+#: views/tab-popup-content.php:130 views/tab-single-posts.php:162
+msgid "Field background color"
+msgstr ""
+
+#: views/tab-popup-content.php:131 views/tab-single-posts.php:163
+msgid "Button text color"
+msgstr ""
+
+#: views/tab-popup-content.php:132 views/tab-single-posts.php:164
+msgid "Button background color"
+msgstr ""
+
+#: views/tab-popup-content.php:133 views/tab-single-posts.php:165
+msgid "Footer text color"
+msgstr ""
+
+#: views/tab-popup-content.php:177
+msgid "Line color"
+msgstr ""
+
+#: views/tab-popup-content.php:182
+msgid "Post Meta"
+msgstr ""
+
+#: views/tab-popup-content.php:188
+msgid "Show post categories"
+msgstr ""
+
+#: views/tab-popup-content.php:196
+msgid "Show post excerpt"
+msgstr ""
+
+#: views/tab-popup-content.php:204 views/tab-popup.php:68
+msgid "Preview Popup"
+msgstr ""
+
+#: views/tab-popup-content.php:206 views/tab-popup-trigger.php:115
+#: views/tab-popup.php:70 views/tab-single-posts.php:179
+msgid "Save Changes"
+msgstr ""
+
+#: views/tab-popup-trigger.php:6
+msgid "Popup pages"
+msgstr ""
+
+#: views/tab-popup-trigger.php:12
+msgid "Show popup on front page"
+msgstr ""
+
+#: views/tab-popup-trigger.php:18
+msgid "Show popup on single posts, pages, and other post types"
+msgstr ""
+
+#: views/tab-popup-trigger.php:24
+msgid "Show popup on archive pages (posts by date, category, etc.)"
+msgstr ""
+
+#: views/tab-popup-trigger.php:30
+msgid "Show popup on search results"
+msgstr ""
+
+#: views/tab-popup-trigger.php:36
+msgid "Show popup on 404 Not Found page"
+msgstr ""
+
+#: views/tab-popup-trigger.php:42
+msgid "Popup triggers"
+msgstr ""
+
+#: views/tab-popup-trigger.php:49
+msgid "Show popup when visitor enters site"
+msgstr ""
+
+#: views/tab-popup-trigger.php:59
+msgid "Show popup after %s seconds."
+msgstr ""
+
+#: views/tab-popup-trigger.php:68
+msgid ""
+"Show popup when visitor reaches the end of the content (only on single posts "
+"&amp; pages)"
+msgstr ""
+
+#: views/tab-popup-trigger.php:76
+msgid "Show popup when visitor is about to leave (exit intent)"
+msgstr ""
+
+#: views/tab-popup-trigger.php:90
+msgid "Show popup on screens larger than %s pixels."
+msgstr ""
+
+#: views/tab-popup-trigger.php:95
+msgid ""
+"Note: popup will only appear once for each visitor until the cookie expires"
+msgstr ""
+
+#: views/tab-popup-trigger.php:99
+msgid "Cookie expiration:"
+msgstr ""
+
+#: views/tab-popup-trigger.php:102
+msgid "days"
+msgstr ""
+
+#: views/tab-popup-trigger.php:102
+msgid "Set to 0 to create cookies that last only for one browser session."
+msgstr ""
+
+#: views/tab-popup-trigger.php:107
+msgid "Clear cookies for all visitors:"
+msgstr ""
+
+#: views/tab-popup-trigger.php:109
+msgid ""
+"Click this button to make the popup show for all visitors once, even for "
+"those who already saw it."
+msgstr ""
+
+#: views/tab-popup-trigger.php:109
+msgid "Generate new cookies"
+msgstr ""
+
+#: views/tab-popup-trigger.php:111
+msgid "Please save the options to apply changes."
+msgstr ""
+
+#: views/tab-popup.php:8
+msgid "Enable Popup"
+msgstr ""
+
+#: views/tab-popup.php:13
+msgid ""
+"Enable site-wide popup that shows subscribe form, related posts, or custom "
+"HTML."
+msgstr ""
+
+#: views/tab-popup.php:23
+msgid "Show subscribe form in popup"
+msgstr ""
+
+#: views/tab-popup.php:28
+msgid "Show related posts in popup"
+msgstr ""
+
+#: views/tab-popup.php:33
+msgid "Show custom HTML or shortcode in popup"
+msgstr ""
+
+#: views/tab-popup.php:39
+msgid "Popup width"
+msgstr ""
+
+#: views/tab-popup.php:41
+msgid "px"
+msgstr ""
+
+#: views/tab-popup.php:45
+msgid "Popup Animation"
+msgstr ""
+
+#: views/tab-popup.php:53
+msgid "Popup overlay color"
+msgstr ""
+
+#: views/tab-popup.php:58
+msgid "Popup overlay opacity"
+msgstr ""
+
+#: views/tab-single-posts.php:16
+msgid "Add Subscribe Form to Single Posts"
+msgstr ""
+
+#: views/tab-single-posts.php:21
+msgid ""
+"Show subscribe form before, after, or inside the content on single posts and "
+"pages."
+msgstr ""
+
+#: views/tab-single-posts.php:30
+msgid "Before post content"
+msgstr ""
+
+#: views/tab-single-posts.php:35
+msgid "After post content"
+msgstr ""
+
+#: views/tab-single-posts.php:40
+msgid "Only shortcode"
+msgstr ""
+
+#: views/tab-single-posts.php:45
+msgid "Copy popup form settings"
+msgstr ""
+
+#: views/tab-single-posts.php:173
+msgid ""
+"You may also use the <code>[wp-subscribe]</code> shortcode in your posts "
+"&amp; pages."
+msgstr ""
+
+#: wp-subscribe-pro.php:29
+msgid ""
+"Please deactivate WP Subscribe plugin first to use the Premium features!"
+msgstr ""
+
+#: wp-subscribe-pro.php:80 wp-subscribe-pro.php:87
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: wp-subscribe-pro.php:199
+msgctxt "wp subscrib plugin action link"
+msgid "Settings"
+msgstr ""
+
+#: wp-subscribe-pro.php:356
+msgid "No aweber authorization code found."
+msgstr ""
+
+#: wp-subscribe-pro.php:388
+msgid "No data found."
+msgstr ""
+
+#: wp-subscribe-pro.php:396
+msgid "No email address found."
+msgstr ""
+
+#: wp-subscribe-pro.php:403
+msgid "Not a valid email address."
+msgstr ""
+
+#: wp-subscribe-pro.php:412
+msgid "Unknown mailing service called."
+msgstr ""
+
+#: wp-subscribe-pro.php:447
+msgid "Not permitted."
+msgstr ""
+
+#: wp-subscribe-pro.php:456
+msgid "Service not defined."
+msgstr ""
+
+#: wp-subscribe-pro.php:474
+msgid "No lists found."
+msgstr ""
+
+#: wp-subscribe-pro.php:512
+msgid "Disable popup for this %s"
+msgstr ""
+
+#: wp-subscribe-pro.php:519
+msgid "Disable subscribe form before/after content"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://mythemeshop.com/plugins/wp-subscribe-pro/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WP Subscribe is a simple but powerful subscription plugin which supports "
+"MailChimp, Aweber, Feedburner, GetResponse, MailerLite, BenchmarkEmail and "
+"Constant Contact."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MyThemeShop"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://mythemeshop.com/"
+msgstr ""
